@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destinationObject: {fileID: 773798300}
-  moveSpeed: 0
+  moveSpeed: 0.2
 --- !u!1 &504201003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,8 +1132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bd3aec7c9dfccb42a1b56d40ef9c25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blueCube: {fileID: 0}
-  redCube: {fileID: 0}
+  blueCube: {fileID: 111300696}
+  redCube: {fileID: 1666854100}
   door: {fileID: 157800593}
 --- !u!1 &1486326507
 GameObject:

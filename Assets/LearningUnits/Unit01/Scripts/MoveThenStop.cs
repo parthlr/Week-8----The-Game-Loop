@@ -21,10 +21,10 @@ public class MoveThenStop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(moveDirection);
-        
-        if (Vector3.Distance(transform.position, destination) < .1f)
+        // Moved translate into the if statement and made it move only if the distance was greater than 0.1
+        if (Vector3.Distance(transform.position, destination) >= .1f)
         {
+            transform.Translate(moveDirection);
         }
 
         return;
